@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>NR Studio | Home</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&family=Red+Hat+Display:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Plugin Css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    />
+
+    <!-- Main Css  -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+
+  <body>
+    <!-- Extra Markup start -->
+    <div
+      id="sidebar_menu"
+      class="sidebar_menu fixed top-0 end-0 h-screen bg_white z-60"
+    >
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="close_m"
+        id="close_m"
+      >
+        <path
+          d="M7.75735 7.75739L16.2426 16.2427"
+          stroke="#292D32"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M7.75736 16.2427L16.2426 7.75739"
+          stroke="#292D32"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <ul class="hamburger_menu">
+        <li class="block">
+          <a data-scroll href="#aboutUs" class="inline-block">About Us</a>
+        </li>
+        <li class="block">
+          <a data-scroll href="#ourServices" class="inline-block"
+            >Our Services</a
+          >
+        </li>
+        <li class="block">
+          <a data-scroll href="#caseStudies" class="inline-block"
+            >Case Studies (Featured Work)</a
+          >
+        </li>
+        <li class="block">
+          <a data-scroll href="#testimonial" class="inline-block"
+            >Testimonial</a
+          >
+        </li>
+        <li class="block">
+          <a data-scroll href="#contactUs" class="inline-block">Contact US</a>
+        </li>
+        <li class="block">
+          <a href="#" class="inline-block">Schedule Free Call</a>
+        </li>
+      </ul>
+    </div>
+    <div class="sticky-target"></div>
+    <div id="overlay" class="overlay"></div>
+    <!-- Extra Markup end -->
+    <header class="header-area fixed top-0 start-0 end-0 w_full z-50">
+      <div class="container_fluid px-3 px-lg-4">
+        <div class="flex items_center justify_between">
+          <a href="#" class="logo inline_block"
+            ><img src="assets/img/logo.png" alt="" class="img_fluid"
+          /></a>
+          <div class="header-right">
+            <button
+              class="inline_block hamburger_trigger bg_transparent cursor_pointer"
+              id="hamburger_trigger"
+            >
+              <img class="img_fluid" src="assets/img/hamburger.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero-area flex items_center">
+        <div class="container mx_auto">
+          <div class="hero-content text_center">
+            <h4 class="flex justify_end items_center">
+              <svg
+                width="55"
+                height="12"
+                viewBox="0 0 55 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="x_line_primary"
+              >
+                <path d="M6 5.71631H55" stroke="#E1A730" />
+                <ellipse
+                  cx="6"
+                  cy="5.71627"
+                  rx="6"
+                  ry="5.55856"
+                  fill="#E1A730"
+                />
+              </svg>
+              <span>We’re NR Studio</span>
+            </h4>
+            <h1 class="f_belleroseLight">
+              GRAPHIC <br />
+              DESIGN
+            </h1>
+            <p>With 10 yrs experience in UI/UX</p>
+            <div class="hero-btns">
+              <a href="#" class="btn">Schedule Free Call</a>
+              <a href="#" class="btn-style-2">Case Studies</a>
+            </div>
+          </div>
+        </div>
+
+        <a
+          href="#welcome"
+          class="next_section_pointer position-absolute z-index-1 mx-auto d-inline-flex scroll"
+          data-scroll
+        >
+        </a>
+      </section>
+
+      <section class="welcome-area bg_primary" id="welcome">
+        <div class="container mx_auto">
+          <div class="welcome-content">
+            <span class="subtitle relative"
+              ><svg
+                width="129"
+                height="10"
+                viewBox="0 0 129 10"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="x_long_pin absolute"
+              >
+                <path d="M6 4.89819H129" stroke="white" />
+                <ellipse cx="6" cy="4.89825" rx="6" ry="4.47222" fill="white" />
+              </svg>
+              Hello, We’re NR Graphic Design Studio</span
+            >
+            <p>
+              Welcome to our graphic design studio. Specializing in UI/UX
+              Design, Web Design, Mobile App Design, Social Media Design, and
+              Logo Design, we blend artistic vision with cutting-edge techniques
+              to bring your ideas to life. Join us.
+            </p>
+
+            <div class="exparties">
+              <h6>Our Expertise areas are:</h6>
+              <p>
+                UI/UX Design / Web Design / Mobile App Design / Social Media
+                Design / Logo Design
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-area" id="aboutUs">
+        <div class="container mx_auto">
+          <div class="about-g-wrapper relative">
+            <div class="sec-img">
+              <img src="assets/img/img-1.png" alt="" class="img_fluid w_full" />
+            </div>
+            <div class="about-content">
+              <span class="subtitle relative"
+                ><svg
+                  width="129"
+                  height="12"
+                  viewBox="0 0 129 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="x_long_pin absolute"
+                >
+                  <path d="M6 6H129" stroke="#E1A730" />
+                  <circle cx="6" cy="6" r="6" fill="#E1A730" />
+                </svg>
+                About Us</span
+              >
+              <h2 class="primary-title uppercase">
+                OUR LIFE <br />
+                WITH DESIGN
+              </h2>
+              <p>
+                At our graphic design studio, we are a passionate team of
+                artists <br />
+                and visionaries dedicated to transforming concepts into <br />
+                captivating realities.
+              </p>
+              <div class="links flex items_center">
+                <a href="#" class="btn-style-2">Contact Us</a>
+                <a href="#" class="btn-style-2">Case Studies</a>
+              </div>
+            </div>
+
+            <div class="img-3 absolute">
+              <img class="img-fluid w_full" src="assets/img/img-3.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="service-area" id="ourServices">
+        <div class="container mx_auto">
+          <h2 class="primary-title uppercase">OUR SERVICES</h2>
+          <div class="service-g-wrapper">
+            <div class="service-content">
+              <div class="service-rw">
+                <h3>WEBSITE DESIGN</h3>
+                <p>
+                  Elevate your online presence with our website designs that
+                  merge aesthetics and functionality.
+                </p>
+              </div>
+              <div class="service-rw">
+                <h3>
+                  MOBILE APP <br />
+                  DESIGN
+                </h3>
+                <p>
+                  Unleash the power of innovation through our mobile app
+                  designs, delivering intuitive user experiences.
+                </p>
+              </div>
+              <div class="service-rw">
+                <h3>
+                  SOCIAL MEDIA <br />
+                  DESIGN
+                </h3>
+                <p>
+                  Ignite your brand's story across social platforms with our
+                  designs, to forge meaningful connections.
+                </p>
+              </div>
+              <div class="service-rw">
+                <h3>
+                  LOGO <br />
+                  DESIGN
+                </h3>
+                <p>
+                  Make a statement with an identity as our logo designs capture
+                  the essence of your brand.
+                </p>
+              </div>
+            </div>
+
+            <div class="img-4 text_center">
+              <div class="div relative">
+                <svg
+                  width="12"
+                  height="77"
+                  viewBox="0 0 12 77"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="v-pin absolute"
+                >
+                  <path d="M6 6L6 77" stroke="#E1A730" />
+                  <circle
+                    cx="6"
+                    cy="6"
+                    r="6"
+                    transform="rotate(90 6 6)"
+                    fill="#E1A730"
+                  />
+                </svg>
+                <img
+                  class="img_fluid w_full"
+                  src="assets/img/img-4.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-area" id="caseStudies">
+        <div class="container">
+          <div class="section-title text-center">
+            <h2 class="primary-title uppercase">
+              <svg
+                width="12"
+                height="50"
+                viewBox="0 0 12 55"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="y_pin_up"
+              >
+                <path d="M6 6L6 55" stroke="#E1A730" />
+                <circle
+                  cx="6"
+                  cy="6"
+                  r="6"
+                  transform="rotate(90 6 6)"
+                  fill="#E1A730"
+                />
+              </svg>
+              Notre démarche
+            </h2>
+          </div>
+          <div id="showcase" class="splide">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <div class="feature-card">
+                    <div class="feature-img">
+                      <img
+                        src="assets/img/f-1.png"
+                        alt=""
+                        class="img_fluid w_full"
+                      />
+                    </div>
+                    <div class="feature-content">
+                      <h5>
+                        <a href="#" class="inline_flex items_center"
+                          ><span>Mobile App Design</span
+                          ><svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M18.5303 5.46967C18.8232 5.76256 18.8232 6.23744 18.5303 6.53033L6.53033 18.5303C6.23744 18.8232 5.76256 18.8232 5.46967 18.5303C5.17678 18.2374 5.17678 17.7626 5.46967 17.4697L17.4697 5.46967C17.7626 5.17678 18.2374 5.17678 18.5303 5.46967Z"
+                              fill="#0D0C0B"
+                              fill-opacity="0.8"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M7.5 6C7.5 5.58579 7.83579 5.25 8.25 5.25H18C18.4142 5.25 18.75 5.58579 18.75 6V15.75C18.75 16.1642 18.4142 16.5 18 16.5C17.5858 16.5 17.25 16.1642 17.25 15.75V6.75H8.25C7.83579 6.75 7.5 6.41421 7.5 6Z"
+                              fill="#0D0C0B"
+                              fill-opacity="0.8"
+                            />
+                          </svg>
+                        </a>
+                      </h5>
+                      <p>Customer Access App</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="feature-card">
+                    <div class="feature-img">
+                      <img
+                        src="assets/img/f-1.png"
+                        alt=""
+                        class="img_fluid w_full"
+                      />
+                    </div>
+                    <div class="feature-content">
+                      <h5>
+                        <a href="#" class="inline_flex items_center"
+                          ><span>Mobile App Design</span
+                          ><svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M18.5303 5.46967C18.8232 5.76256 18.8232 6.23744 18.5303 6.53033L6.53033 18.5303C6.23744 18.8232 5.76256 18.8232 5.46967 18.5303C5.17678 18.2374 5.17678 17.7626 5.46967 17.4697L17.4697 5.46967C17.7626 5.17678 18.2374 5.17678 18.5303 5.46967Z"
+                              fill="#0D0C0B"
+                              fill-opacity="0.8"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M7.5 6C7.5 5.58579 7.83579 5.25 8.25 5.25H18C18.4142 5.25 18.75 5.58579 18.75 6V15.75C18.75 16.1642 18.4142 16.5 18 16.5C17.5858 16.5 17.25 16.1642 17.25 15.75V6.75H8.25C7.83579 6.75 7.5 6.41421 7.5 6Z"
+                              fill="#0D0C0B"
+                              fill-opacity="0.8"
+                            />
+                          </svg>
+                        </a>
+                      </h5>
+                      <p>Customer Access App</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="feature-card">
+                    <div class="feature-img">
+                      <img
+                        src="assets/img/f-1.png"
+                        alt=""
+                        class="img_fluid w_full"
+                      />
+                    </div>
+                    <div class="feature-content">
+                      <h5>
+                        <a href="#" class="inline_flex items_center"
+                          ><span>Mobile App Design</span
+                          ><svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M18.5303 5.46967C18.8232 5.76256 18.8232 6.23744 18.5303 6.53033L6.53033 18.5303C6.23744 18.8232 5.76256 18.8232 5.46967 18.5303C5.17678 18.2374 5.17678 17.7626 5.46967 17.4697L17.4697 5.46967C17.7626 5.17678 18.2374 5.17678 18.5303 5.46967Z"
+                              fill="#0D0C0B"
+                              fill-opacity="0.8"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M7.5 6C7.5 5.58579 7.83579 5.25 8.25 5.25H18C18.4142 5.25 18.75 5.58579 18.75 6V15.75C18.75 16.1642 18.4142 16.5 18 16.5C17.5858 16.5 17.25 16.1642 17.25 15.75V6.75H8.25C7.83579 6.75 7.5 6.41421 7.5 6Z"
+                              fill="#0D0C0B"
+                              fill-opacity="0.8"
+                            />
+                          </svg>
+                        </a>
+                      </h5>
+                      <p>Customer Access App</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="feature-card">
+                    <div class="feature-img">
+                      <img
+                        src="assets/img/f-1.png"
+                        alt=""
+                        class="img_fluid w_full"
+                      />
+                    </div>
+                    <div class="feature-content">
+                      <h5>
+                        <a href="#" class="inline_flex items_center"
+                          ><span>Mobile App Design</span
+                          ><svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M18.5303 5.46967C18.8232 5.76256 18.8232 6.23744 18.5303 6.53033L6.53033 18.5303C6.23744 18.8232 5.76256 18.8232 5.46967 18.5303C5.17678 18.2374 5.17678 17.7626 5.46967 17.4697L17.4697 5.46967C17.7626 5.17678 18.2374 5.17678 18.5303 5.46967Z"
+                              fill="#0D0C0B"
+                              fill-opacity="0.8"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M7.5 6C7.5 5.58579 7.83579 5.25 8.25 5.25H18C18.4142 5.25 18.75 5.58579 18.75 6V15.75C18.75 16.1642 18.4142 16.5 18 16.5C17.5858 16.5 17.25 16.1642 17.25 15.75V6.75H8.25C7.83579 6.75 7.5 6.41421 7.5 6Z"
+                              fill="#0D0C0B"
+                              fill-opacity="0.8"
+                            />
+                          </svg>
+                        </a>
+                      </h5>
+                      <p>Customer Access App</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="feature-card">
+                    <div class="feature-img">
+                      <img
+                        src="assets/img/f-1.png"
+                        alt=""
+                        class="img_fluid w_full"
+                      />
+                    </div>
+                    <div class="feature-content">
+                      <h5>
+                        <a href="#" class="inline_flex items_center"
+                          ><span>Mobile App Design</span
+                          ><svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M18.5303 5.46967C18.8232 5.76256 18.8232 6.23744 18.5303 6.53033L6.53033 18.5303C6.23744 18.8232 5.76256 18.8232 5.46967 18.5303C5.17678 18.2374 5.17678 17.7626 5.46967 17.4697L17.4697 5.46967C17.7626 5.17678 18.2374 5.17678 18.5303 5.46967Z"
+                              fill="#0D0C0B"
+                              fill-opacity="0.8"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M7.5 6C7.5 5.58579 7.83579 5.25 8.25 5.25H18C18.4142 5.25 18.75 5.58579 18.75 6V15.75C18.75 16.1642 18.4142 16.5 18 16.5C17.5858 16.5 17.25 16.1642 17.25 15.75V6.75H8.25C7.83579 6.75 7.5 6.41421 7.5 6Z"
+                              fill="#0D0C0B"
+                              fill-opacity="0.8"
+                            />
+                          </svg>
+                        </a>
+                      </h5>
+                      <p>Customer Access App</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="feature-card">
+                    <div class="feature-img">
+                      <img
+                        src="assets/img/f-1.png"
+                        alt=""
+                        class="img_fluid w_full"
+                      />
+                    </div>
+                    <div class="feature-content">
+                      <h5>
+                        <a href="#" class="inline_flex items_center"
+                          ><span>Mobile App Design</span
+                          ><svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M18.5303 5.46967C18.8232 5.76256 18.8232 6.23744 18.5303 6.53033L6.53033 18.5303C6.23744 18.8232 5.76256 18.8232 5.46967 18.5303C5.17678 18.2374 5.17678 17.7626 5.46967 17.4697L17.4697 5.46967C17.7626 5.17678 18.2374 5.17678 18.5303 5.46967Z"
+                              fill="#0D0C0B"
+                              fill-opacity="0.8"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M7.5 6C7.5 5.58579 7.83579 5.25 8.25 5.25H18C18.4142 5.25 18.75 5.58579 18.75 6V15.75C18.75 16.1642 18.4142 16.5 18 16.5C17.5858 16.5 17.25 16.1642 17.25 15.75V6.75H8.25C7.83579 6.75 7.5 6.41421 7.5 6Z"
+                              fill="#0D0C0B"
+                              fill-opacity="0.8"
+                            />
+                          </svg>
+                        </a>
+                      </h5>
+                      <p>Customer Access App</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="links flex items_center justify_center">
+            <a href="#" class="btn-style-2">Let’s talk</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="process-area">
+        <div class="container mx_auto">
+          <div class="process-content bg_primary">
+            <h2 class="primary-title uppercase">WORKING PROCESS</h2>
+            <div class="process-steps">
+              <div class="process-step">
+                <span class="step-counter">STEP: 01</span>
+                <p>
+                  Send up your <br />
+                  project
+                </p>
+              </div>
+              <div class="process-step">
+                <span class="step-counter">STEP: 02</span>
+                <p>
+                  Let’s discuss about <br />
+                  the details
+                </p>
+              </div>
+              <div class="process-step">
+                <span class="step-counter">STEP: 03</span>
+                <p>
+                  Get it delivered <br />
+                  on time
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial-area" id="testimonial">
+        <div class="container mx_auto">
+          <div class="section-title text_center">
+            <h2 class="primary-title uppercase">TESTIMONIAL</h2>
+          </div>
+          <div id="testimonialCarousel" class="splide dot-design">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <div class="client-review">
+                    <img
+                      src="assets/img/comma.svg"
+                      alt=""
+                      class="comma img-fluid"
+                    />
+                    <p>
+                      “The UI designs he crafted are top-notch, and the design
+                      system he integrated allows for straightforward fixes and
+                      bulk updates throughout almost every area of the app.”
+                    </p>
+
+                    <div class="reviewer">
+                      <p>-By Molie Rosa, Photographer</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="client-review">
+                    <img
+                      src="assets/img/comma.svg"
+                      alt=""
+                      class="comma img-fluid"
+                    />
+                    <p>
+                      “We worked with David designing our backend web app from
+                      scratch and we are happy with the results. He has good
+                      communication skills and uses robust workflows that
+                      allowed me and my team to work with him efficiently.”
+                    </p>
+
+                    <div class="reviewer">
+                      <p>-By Molie Rosa, Photographer</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="client-review">
+                    <img
+                      src="assets/img/comma.svg"
+                      alt=""
+                      class="comma img-fluid"
+                    />
+                    <p>
+                      We’ve been working with David on multiple projects for the
+                      last 2 years. He has delivered consistent high quality
+                      designs for our web, and apps. He is a great communicator,
+                      always meets deadlines.”
+                    </p>
+
+                    <div class="reviewer">
+                      <p>-By Molie Rosa, Photographer</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="client-review">
+                    <img
+                      src="assets/img/comma.svg"
+                      alt=""
+                      class="comma img-fluid"
+                    />
+                    <p>
+                      “It's been a rewarding experience partnering with NR
+                      Studio for two years. Their design prowess in both web and
+                      app projects is remarkable. The integrated design system
+                      not only ensures visual coherence but also simplifies
+                      updates”
+                    </p>
+
+                    <div class="reviewer">
+                      <p>-By Molie Rosa, Photographer</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="client-review">
+                    <img
+                      src="assets/img/comma.svg"
+                      alt=""
+                      class="comma img-fluid"
+                    />
+                    <p>
+                      “The UI designs he crafted are top-notch, and the design
+                      system he integrated allows for straightforward fixes and
+                      bulk updates throughout almost every area of the app.”
+                    </p>
+
+                    <div class="reviewer">
+                      <p>-By Molie Rosa, Photographer</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="client-review">
+                    <img
+                      src="assets/img/comma.svg"
+                      alt=""
+                      class="comma img-fluid"
+                    />
+                    <p>
+                      “The UI designs he crafted are top-notch, and the design
+                      system he integrated allows for straightforward fixes and
+                      bulk updates throughout almost every area of the app.”
+                    </p>
+
+                    <div class="reviewer">
+                      <p>-By Molie Rosa, Photographer</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="client-review">
+                    <img
+                      src="assets/img/comma.svg"
+                      alt=""
+                      class="comma img-fluid"
+                    />
+                    <p>
+                      “The UI designs he crafted are top-notch, and the design
+                      system he integrated allows for straightforward fixes and
+                      bulk updates throughout almost every area of the app.”
+                    </p>
+
+                    <div class="reviewer">
+                      <p>-By Molie Rosa, Photographer</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="client-review">
+                    <img
+                      src="assets/img/comma.svg"
+                      alt=""
+                      class="comma img-fluid"
+                    />
+                    <p>
+                      “The UI designs he crafted are top-notch, and the design
+                      system he integrated allows for straightforward fixes and
+                      bulk updates throughout almost every area of the app.”
+                    </p>
+
+                    <div class="reviewer">
+                      <p>-By Molie Rosa, Photographer</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="links flex items_center justify_center">
+            <a href="#" class="btn-style-2">Let’s talk</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-area bg_primary">
+      <div class="container mx_auto">
+        <div class="ft-g-wrapper">
+          <h2 class="primary-title uppercase">LET’S GET IN TOUCH</h2>
+          <div class="ft-right-content">
+            <p>
+              Got a project? Drop us a line if you want to work together on
+              something exciting. Big or small. Mobile or web.
+            </p>
+            <p class="red-hat-display">Let’s Discuss Your Project</p>
+          </div>
+        </div>
+
+        <div class="ft-contact-wrapper">
+          <p class="mail">info@nrstudio.pl</p>
+          <ul class="ft-contact-right flex items_center justify_end">
+            <li>
+              <span class="block">Facebook</span>
+              <a href="#" class="inline_block">@nr.gdstudio</a>
+            </li>
+            <li>
+              <span class="block">Instagram</span>
+              <a href="#" class="inline_block">@nr.gdstudio</a>
+            </li>
+            <li>
+              <span class="block">Calendly</span>
+              <a href="#" class="inline_block">@martindesign</a>
+            </li>
+            <li>
+              <span class="block">E-mail</span>
+              <a href="#" class="inline_block">info@nrstudio.pl</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Plugin Js -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <!-- Custom Js -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
