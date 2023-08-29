@@ -801,3 +801,66 @@ section {
   max-width: 385px;
 }
 /* footer css end */
+
+/* Media Query */
+@media screen and (max-width: 1600px) {
+  .img-4 .div {
+    transform: translateX(6vw);
+  }
+}
+@media screen and (max-width: 1365px) {
+  .img-4 .div {
+    transform: translateX(4vw);
+  }
+}
+@media screen and (max-width: 1279px) {
+  .welcome-area .container {
+    padding-left: 169px;
+  }
+  .container,
+  .container_fluid {
+    padding: 0 24px;
+  }
+  .img-3,
+  .img-4 {
+    display: none;
+  }
+  .service-g-wrapper {
+    display: block;
+  }
+  .ft-g-wrapper .primary-title {
+    font-size: 75px;
+  }
+  .ft-right-content p {
+    font-size: 18px;
+  }
+  .ft-contact-wrapper .mail {
+    font-size: 26px;
+  }
+  .ft-contact-wrapper {
+    padding: 34px;
+  }
+  .process-steps {
+    grid-gap: 30px;
+  }
+  .process-content {
+    padding: 60px 34px;
+  }
+  .process-step p {
+    font-size: 25px;
+  }
+  .primary-title {
+    font-size: 60px;
+  }
+  .welcome-content p {
+    font-size: 36px;
+  }
+  .hero-content h1 {
+    font-size: 110px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .feature-area .container {
+    margin-left: auto;
+  }
+}

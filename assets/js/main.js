@@ -40,6 +40,14 @@ document.addEventListener("DOMContentLoaded", function () {
     rewind: true,
     padding: { left: 0, right: "10vw" },
     pagination: false,
+    breakpoints: {
+      1280: {
+        perPage: 3,
+      },
+      1024: {
+        perPage: 2,
+      },
+    },
   });
   showcase.mount();
 
@@ -51,13 +59,18 @@ document.addEventListener("DOMContentLoaded", function () {
     rewind: true,
     arrows: false,
     centerMode: true,
+    breakpoints: {
+      1024: {
+        perPage: 2,
+      },
+    },
   });
 
   testimonial.mount();
 
   // 4. Smooth scroll to next section
   let scroll = new SmoothScroll('a[href*="#"]', {
-    offset: 60,
+    offset: 70,
     speed: 500,
   });
 });
