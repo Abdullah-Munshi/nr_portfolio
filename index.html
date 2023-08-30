@@ -30,61 +30,6 @@
 
   <body>
     <!-- Extra Markup start -->
-    <div
-      id="sidebar_menu"
-      class="sidebar_menu fixed top-0 end-0 h-screen bg_white z-60"
-    >
-      <svg
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        class="close_m"
-        id="close_m"
-      >
-        <path
-          d="M7.75735 7.75739L16.2426 16.2427"
-          stroke="#292D32"
-          stroke-width="1.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-        <path
-          d="M7.75736 16.2427L16.2426 7.75739"
-          stroke="#292D32"
-          stroke-width="1.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
-      <ul class="hamburger_menu">
-        <li class="block">
-          <a data-scroll href="#aboutUs" class="inline-block">About Us</a>
-        </li>
-        <li class="block">
-          <a data-scroll href="#ourServices" class="inline-block"
-            >Our Services</a
-          >
-        </li>
-        <li class="block">
-          <a data-scroll href="#caseStudies" class="inline-block"
-            >Case Studies (Featured Work)</a
-          >
-        </li>
-        <li class="block">
-          <a data-scroll href="#testimonial" class="inline-block"
-            >Testimonial</a
-          >
-        </li>
-        <li class="block">
-          <a data-scroll href="#contactUs" class="inline-block">Contact US</a>
-        </li>
-        <li class="block">
-          <a href="#" class="inline-block">Schedule Free Call</a>
-        </li>
-      </ul>
-    </div>
     <div class="sticky-target"></div>
     <div id="overlay" class="overlay"></div>
     <!-- Extra Markup end -->
@@ -94,13 +39,47 @@
           <a href="#" class="logo inline_block"
             ><img src="assets/img/logo.png" alt="" class="img_fluid"
           /></a>
-          <div class="header-right">
-            <button
-              class="inline_block hamburger_trigger bg_transparent cursor_pointer"
-              id="hamburger_trigger"
-            >
-              <img class="img_fluid" src="assets/img/hamburger.svg" alt="" />
-            </button>
+          <div class="header-right flex items_center justify_end">
+            <div class="menu_wrap relative">
+              <div class="menu absolute">
+                <div id="menu_trigger">
+                  <div id="bar1" class="bar"></div>
+                  <div id="bar2" class="bar"></div>
+                  <div id="bar3" class="bar"></div>
+                </div>
+                <ul class="hamburger_menu">
+                  <li class="block">
+                    <a data-scroll href="#aboutUs" class="inline-block"
+                      >About Us</a
+                    >
+                  </li>
+                  <li class="block">
+                    <a data-scroll href="#ourServices" class="inline-block"
+                      >Our Services</a
+                    >
+                  </li>
+                  <li class="block">
+                    <a data-scroll href="#caseStudies" class="inline-block"
+                      >Case Studies (Featured Work)</a
+                    >
+                  </li>
+                  <li class="block">
+                    <a data-scroll href="#testimonial" class="inline-block"
+                      >Testimonial</a
+                    >
+                  </li>
+                  <li class="block">
+                    <a data-scroll href="#contactUs" class="inline-block"
+                      >Contact US</a
+                    >
+                  </li>
+                  <li class="block">
+                    <a href="#" class="inline-block">Schedule Free Call</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="menu-bg fixed end-0 top-0"></div>
+            </div>
           </div>
         </div>
       </div>

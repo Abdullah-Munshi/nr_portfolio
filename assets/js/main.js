@@ -17,16 +17,14 @@ document.addEventListener("DOMContentLoaded", function () {
   // 2. Script for Mobile toggle button
   function hamburgerFn(e) {
     e.preventDefault();
-    document.querySelector("body").classList.toggle("extra");
+    document.querySelector("body").classList.toggle("change");
   }
-  if (document.getElementById("hamburger_trigger") !== null) {
-    const hamburgerTrigger = document.getElementById("hamburger_trigger");
+  if (document.getElementById("menu_trigger") !== null) {
+    const hamburgerTrigger = document.getElementById("menu_trigger");
     const overlay = document.getElementById("overlay");
-    const closeMenu = document.getElementById("close_m");
     const links = document.querySelectorAll(".hamburger_menu li a");
     hamburgerTrigger.addEventListener("click", hamburgerFn);
     overlay.addEventListener("click", hamburgerFn);
-    closeMenu.addEventListener("click", hamburgerFn);
 
     links.forEach((link) => link.addEventListener("click", hamburgerFn));
   }
@@ -47,6 +45,11 @@ document.addEventListener("DOMContentLoaded", function () {
       1024: {
         perPage: 2,
       },
+      480: {
+        perPage: 1,
+        gap: 16,
+        padding: { left: 0, right: "60px" },
+      },
     },
   });
   showcase.mount();
@@ -62,6 +65,11 @@ document.addEventListener("DOMContentLoaded", function () {
     breakpoints: {
       1024: {
         perPage: 2,
+      },
+      480: {
+        perPage: 1,
+        gap: 16,
+        autoHeight: true,
       },
     },
   });
